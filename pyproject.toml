@@ -1,10 +1,10 @@
 [project]
-name = "uv_devcontainer"
+name = "python-binaries"
 version = "0.1.0"
-description = "uv devcontainer"
+description = "python binaries"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["numpy>=2.2.5", "pyinstaller>=6.13.0"]
 
 
 [tool.uv]
