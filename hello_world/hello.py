@@ -1,9 +1,10 @@
 import numpy as np
+import typer
 
 
-def hello():
-    print(f"hello world, my numpy version is: {np.__version__}")
+def main(name: str):
+    print(f"hello {name}, my numpy version is: {np.__version__}")
 
 
 if __name__ == "__main__":
-    hello()
+    typer.run(main)
